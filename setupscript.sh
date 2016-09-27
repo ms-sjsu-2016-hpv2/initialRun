@@ -11,10 +11,10 @@ mkdir -p init.d
 cd init.d/
 
 # git clone script to add to start up path of the system
-
+git clone https://github.com/ms-sjsu-2016-hpv2/initialRun.git
 
 # filename to add to script
-filename=
+filename=deviceregister.py
 
 # making file executable
 chmod +x /etc/init.d/"$filename"
